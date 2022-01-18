@@ -1,7 +1,12 @@
+body{
+  overflow-y: hidden;
+}
+
 .topnav {
   overflow: hidden;
   margin: 20px 40px;
   border-bottom: 1px solid hsl(220, 14%, 75%);
+  margin-top: 25px;
 }
 .topnav h5{
   float: left;
@@ -90,8 +95,8 @@ img {
   display: none;
 }
 .imj{
-  margin-left: 30px;
-  width: 280px;
+  margin-top: 20px;
+  margin-left: 50px;
   height: 330px;
   border-radius: 30px;
 }
@@ -107,18 +112,17 @@ img {
   clear: both;
 }
 .row{
-  margin-top: 10px;
-  padding-left: 30px;
-  padding-right: 20px;
+  margin-top: 20px;
+  padding-left: 77px;
 }
 /* Six columns side by side */
 .column {
   float: left;
-  margin: 0 -20px;
-  width: 105px;
-  height: 105px;
+  margin: 0 -18px;
+  width: 110px;
+  height: 110px;
   margin-top: 30px;
-  margin-right: 15px;
+  margin-right: 5px;
 }
 
 /* Add a transparency effect for thumnbail images */
@@ -134,12 +138,16 @@ img {
 
 .button {
   display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
+  padding: 15px 15px;
+  font-size: 20px;
+  width: 50%;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
   outline: none;
+  position: absolute;
+  top: 95%;
+  left: 40%;
   color: #fff;
   background-color: hsl(26, 100%, 55%);
   border: none;
@@ -150,19 +158,61 @@ img {
 
 .button:active {
   background-color: hsl(26, 100%, 55%);
-  box-shadow: 0 5px #666;
+  box-shadow: 0 2px #666;
   transform: translateY(4px);
 }
 
+/* All Time */
 
 .all-time{
   float: right;
   position: relative;
   display: inline-grid;
   width: 50%;
+  font-size: 15px;
+  letter-spacing: .2mm;
+  padding: 45px 5px;
+  padding-right: 3rem;
 }
 .rp{
   background-color: hsl(25, 100%, 94%);
   height: auto;
   width: auto;
+  position: absolute;
+  top: 66%;
+  left: 27%;
+  color: hsl(26, 100%, 55%);
+  font-weight: 700;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+.all-time span{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: hsl(26, 100%, 55%);
+  font-size: 13px;
+}
+.all-time p{
+  color: hsl(220, 14%, 75%);
+}
+
+.all-time h1{
+  font-weight: 700;
+}
+.all-time h2{
+  font-weight: 790;
+}
+.all-time strike{
+  color: hsl(220, 14%, 75%);
+  font-weight: 450;
+}
+
+.contain{
+  position: absolute;
+  top: 105%;
+  left: 15%;
+  display: flex;
+  transform: translate(-50%,-50%);
+  background-color: hsl(220, 14%, 75%);
+
 }
