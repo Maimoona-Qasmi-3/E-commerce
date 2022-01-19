@@ -51,9 +51,9 @@
   <strike>$250.00</strike>
   <br>
 <div class="contain">
-  <button id="decreamnet"> <img src="images/icon-minus.svg" alt=""> </button>
-  <input type="number" min="0" max="50" value="0" id="my-input" readonly>
-  <button id="increamnet"> <img src="images/icon-plus.svg" alt=""> </button>
+  <span id="decreamnet" onclick="prevNum"> <img src="images/icon-minus.svg" alt=""> </span>
+  <input type="number" value="500" min="0" max="1000" step="10"/>
+  <span id="increamnet" onclick="nextNum"> <img src="images/icon-plus.svg" alt=""> </span>
 
 </div>
   <button class="button"> <img src="images/icon-cart.svg" alt=""> Add to cart</button>
@@ -90,6 +90,7 @@
       </div>
     </div>
   </div>
+
   <script src="index.js"></script>
 
 
