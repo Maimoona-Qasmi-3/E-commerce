@@ -80,3 +80,5 @@ if (x.className === "topnav") {
   x.className = "topnav";
 }
 }
+// button
+$("input[type='number']").inputSpinner()
