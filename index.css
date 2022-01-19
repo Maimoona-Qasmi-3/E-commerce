@@ -214,5 +214,17 @@ img {
   display: flex;
   transform: translate(-50%,-50%);
   background-color: hsl(220, 14%, 75%);
+}
+.contain div{
+  text-align: center;
+  border: none;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+}
 
+
+button{
+  border: none;
+  background-color: #fff;
 }
